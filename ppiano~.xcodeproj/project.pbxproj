@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E475061625DA964B005A87ED /* maxmspsdk.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E475061525DA964B005A87ED /* maxmspsdk.xcconfig */; };
+		E498851727FF40BB0060DE27 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E498851627FF40BB0060DE27 /* MaxAudioAPI.framework */; };
+		E498851927FF40C70060DE27 /* MaxAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E498851827FF40C70060DE27 /* MaxAPI.framework */; };
+		E498853D27FF43260060DE27 /* t_trap.c in Sources */ = {isa = PBXBuildFile; fileRef = E498853227FF43260060DE27 /* t_trap.c */; };
+		E498853E27FF43260060DE27 /* t_rattle.c in Sources */ = {isa = PBXBuildFile; fileRef = E498853327FF43260060DE27 /* t_rattle.c */; };
+		E498853F27FF43260060DE27 /* t_rubber.c in Sources */ = {isa = PBXBuildFile; fileRef = E498853427FF43260060DE27 /* t_rubber.c */; };
+		E498854127FF43260060DE27 /* t_std.c in Sources */ = {isa = PBXBuildFile; fileRef = E498853627FF43260060DE27 /* t_std.c */; };
+		E498854227FF43260060DE27 /* t_pianoHammer.c in Sources */ = {isa = PBXBuildFile; fileRef = E498853727FF43260060DE27 /* t_pianoHammer.c */; };
+		E498854927FF44F20060DE27 /* ppiano.c in Sources */ = {isa = PBXBuildFile; fileRef = E498854827FF44F10060DE27 /* ppiano.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FBBEAE508F335360078DB84 /* ppiano~.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ppiano~.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E475061525DA964B005A87ED /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = maxmspsdk.xcconfig; sourceTree = "<group>"; };
+		E498851627FF40BB0060DE27 /* MaxAudioAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAudioAPI.framework; path = "max-sdk/source/max-sdk-base/c74support/msp-includes/MaxAudioAPI.framework"; sourceTree = "<group>"; };
+		E498851827FF40C70060DE27 /* MaxAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAPI.framework; path = "max-sdk/source/max-sdk-base/c74support/max-includes/MaxAPI.framework"; sourceTree = "<group>"; };
+		E498853227FF43260060DE27 /* t_trap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = t_trap.c; sourceTree = "<group>"; };
+		E498853327FF43260060DE27 /* t_rattle.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = t_rattle.c; sourceTree = "<group>"; };
+		E498853427FF43260060DE27 /* t_rubber.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = t_rubber.c; sourceTree = "<group>"; };
+		E498853627FF43260060DE27 /* t_std.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = t_std.c; sourceTree = "<group>"; };
+		E498853727FF43260060DE27 /* t_pianoHammer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = t_pianoHammer.c; sourceTree = "<group>"; };
+		E498853827FF43260060DE27 /* t_rubber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t_rubber.h; sourceTree = "<group>"; };
+		E498853927FF43260060DE27 /* t_rattle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t_rattle.h; sourceTree = "<group>"; };
+		E498853A27FF43260060DE27 /* t_trap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t_trap.h; sourceTree = "<group>"; };
+		E498853B27FF43260060DE27 /* t_std.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t_std.h; sourceTree = "<group>"; };
+		E498853C27FF43260060DE27 /* t_pianoHammer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t_pianoHammer.h; sourceTree = "<group>"; };
+		E498854827FF44F10060DE27 /* ppiano.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ppiano.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBBEADC08F335360078DB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E498851927FF40C70060DE27 /* MaxAPI.framework in Frameworks */,
+				E498851727FF40BB0060DE27 /* MaxAudioAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* iterator */ = {
+			isa = PBXGroup;
+			children = (
+				E498853127FF43260060DE27 /* src */,
+				E475061525DA964B005A87ED /* maxmspsdk.xcconfig */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+				E475065725DA9913005A87ED /* Frameworks */,
+			);
+			name = iterator;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBBEAE508F335360078DB84 /* ppiano~.mxo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E475065725DA9913005A87ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E498851827FF40C70060DE27 /* MaxAPI.framework */,
+				E498851627FF40BB0060DE27 /* MaxAudioAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E498853127FF43260060DE27 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E498854827FF44F10060DE27 /* ppiano.c */,
+				E498853227FF43260060DE27 /* t_trap.c */,
+				E498853327FF43260060DE27 /* t_rattle.c */,
+				E498853427FF43260060DE27 /* t_rubber.c */,
+				E498853627FF43260060DE27 /* t_std.c */,
+				E498853727FF43260060DE27 /* t_pianoHammer.c */,
+				E498853827FF43260060DE27 /* t_rubber.h */,
+				E498853927FF43260060DE27 /* t_rattle.h */,
+				E498853A27FF43260060DE27 /* t_trap.h */,
+				E498853B27FF43260060DE27 /* t_std.h */,
+				E498853C27FF43260060DE27 /* t_pianoHammer.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FBBEAD708F335360078DB84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FBBEAD608F335360078DB84 /* max-external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "max-external" */;
+			buildPhases = (
+				2FBBEAD708F335360078DB84 /* Headers */,
+				2FBBEAD808F335360078DB84 /* Resources */,
+				2FBBEADA08F335360078DB84 /* Sources */,
+				2FBBEADC08F335360078DB84 /* Frameworks */,
+				2FBBEADF08F335360078DB84 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "max-external";
+			productName = iterator;
+			productReference = 2FBBEAE508F335360078DB84 /* ppiano~.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "ppiano~" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* iterator */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBBEAD608F335360078DB84 /* max-external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBBEAD808F335360078DB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E475061625DA964B005A87ED /* maxmspsdk.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		2FBBEADF08F335360078DB84 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBBEADA08F335360078DB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E498854227FF43260060DE27 /* t_pianoHammer.c in Sources */,
+				E498853F27FF43260060DE27 /* t_rubber.c in Sources */,
+				E498853E27FF43260060DE27 /* t_rattle.c in Sources */,
+				E498854127FF43260060DE27 /* t_std.c in Sources */,
+				E498854927FF44F20060DE27 /* ppiano.c in Sources */,
+				E498853D27FF43260060DE27 /* t_trap.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2FBBEAD008F335010078DB84 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		2FBBEAD108F335010078DB84 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		2FBBEAE108F335360078DB84 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E475061525DA964B005A87ED /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/max-sdk/source/max-sdk-base/c74support/msp-includes",
+					"$(PROJECT_DIR)/max-sdk/source/max-sdk-base/c74support/max-includes",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cycling74.sofatoheader;
+				PRODUCT_NAME = "ppiano~";
+			};
+			name = Development;
+		};
+		2FBBEAE208F335360078DB84 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E475061525DA964B005A87ED /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/max-sdk/source/max-sdk-base/c74support/msp-includes",
+					"$(PROJECT_DIR)/max-sdk/source/max-sdk-base/c74support/max-includes",
+				);
+				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cycling74.sofatoheader;
+				PRODUCT_NAME = "ppiano~";
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "ppiano~" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBBEAD008F335010078DB84 /* Development */,
+				2FBBEAD108F335010078DB84 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "max-external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBBEAE108F335360078DB84 /* Development */,
+				2FBBEAE208F335360078DB84 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
